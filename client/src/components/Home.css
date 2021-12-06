@@ -1,0 +1,110 @@
+.cardContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+    background-image: url("https://i.pinimg.com/originals/c1/27/69/c127693b3af8120d642a7e3eeb3e2837.jpg");
+    padding: 50px;
+}
+
+.cards{
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: #f2f2f2;
+    box-shadow: 0px 0px 10px #000000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: 1s;
+}
+
+.cards:hover {
+    box-shadow: 0px 0px 20px #000000;
+    transform: scale(1.1);
+    
+    
+}
+
+
+
+.filtersOrder{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+    background-color: darkgray;
+}
+
+.homeHeader{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    background-color: darkgray;
+}
+.title{
+    font-size: 30px;
+    font-weight: bold;
+}
+.buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.reloadButton{
+    width: 230px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: #f2f2f2;
+    box-shadow: 0px 0px 10px #000000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor:pointer;
+    margin: 10px;
+    transition: 1s;
+}
+.reloadButton:hover {
+    box-shadow: 0px 0px 15px #000000;
+    transform: scale(1.05);  
+}
+
+.createButton{
+    width: 230px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: #f2f2f2;
+    box-shadow: 0px 0px 10px #000000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor:pointer;
+    margin: 10px;
+    transition: 1s;
+}
+.createButton:hover {
+    box-shadow: 0px 0px 15px #000000;
+    transform: scale(1.05);  
+}
+
+.order{
+    font-weight: bold;
+    margin: 25px;
+}
+.diet{
+    font-weight: bold;
+    margin: 25px;
+}
+.origin{
+    font-weight: bold;
+    margin: 25px;
+}

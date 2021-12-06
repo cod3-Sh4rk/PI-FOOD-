@@ -1,0 +1,42 @@
+.landingdiv {
+    background-image: url("./images/fondo.jpg");
+    /* background-image: url("https://jooinn.com/images1280_/food-on-table-3.jpg"); */
+    background-repeat: no-repeat;
+    background-size: cover; ;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+
+
+}
+
+.landing-container{
+    
+    margin-left: 200px;
+}
+
+.welcomeText{
+    font-size: 50px;
+    font-family: 'Lucida Handwriting', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+    color: white;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.introButton{
+    background-color: #ccc92c;
+    border: 1px solid #f7f7f7;
+    border-radius: 5px;
+    color: #2c3e50;
+    font-size: 30px;
+    font-family: 'Lucida Handwriting', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+    padding: 10px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 200px;
+    cursor: pointer;
+
+}

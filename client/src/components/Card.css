@@ -1,0 +1,15 @@
+.cardImg{
+    width: 300px;
+    
+    display: block;
+    object-fit: cover;
+}
+
+.cardTitle{
+    height: 20px;
+}
+
+.cardPrice{
+    height: 20px;
+    font-display: bold;
+}
